@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: '/packages',
   plugins: [
     {
       resolve: `gatsby-plugin-typography`,
