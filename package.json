@@ -9,11 +9,13 @@
     "start": "npm run develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "dependencies": {
     "gatsby": "^2.0.76",
     "gatsby-plugin-typography": "^2.2.5",
+    "gh-pages": "^2.0.1",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-typography": "^0.16.18",
